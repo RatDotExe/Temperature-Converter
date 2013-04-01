@@ -25,12 +25,13 @@ int main() {
 	if (u == "celcius") {
 			r = t * b + a;
 		    u = "F";
-		}
+	}
 		
-    if (u == "fahrenheit") {
+    	if (u == "fahrenheit") {
 			r = t - a / b;
 			u = "C";
-		}
+	}
+	
 	if (u == "c") {
 		r = t * b + a;
 		u = "F";
